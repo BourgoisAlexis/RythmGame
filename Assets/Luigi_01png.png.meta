@@ -1,0 +1,5429 @@
+fileFormatVersion: 2
+guid: 8a8173ea54d45df4b9ab7cbf3a4329ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Luigi_01png_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3797
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af48c614a4f87f341a1f1767c73c91e8
+      internalID: 1490300441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3798
+        width: 146
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0278e33a22ec94088151a4846b9061
+      internalID: 119838285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3798
+        width: 147
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df595b4e9a99cc459e69f0f69420421
+      internalID: 601477329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_3
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3809
+        width: 145
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413109319ab7d0f45be1a98d1d7f26bf
+      internalID: -1703288291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_4
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3799
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d095b270e5534054bba01f1f037dd3e1
+      internalID: 2147215168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_5
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3809
+        width: 146
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb14f07a49b12d48a333cda70c031b8
+      internalID: 549403647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_6
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 3809
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4063d157e3190cf4b9abd85982af3cb7
+      internalID: -659143955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 3799
+        width: 147
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be5a79696e12604a9ef43bea3eb00a5
+      internalID: 308711297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_8
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 3809
+        width: 146
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2826685c42e120b4abc592af264a5456
+      internalID: 241235470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_9
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 3784
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a285f8605fa611b44977c0a0f8d27717
+      internalID: -953200644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_10
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 3784
+        width: 145
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01105bae753f1cf4fa1c750107ffb814
+      internalID: 1879011092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_11
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 3787
+        width: 176
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de159f4d431054a99018cb27689c21
+      internalID: 2085270172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_12
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 3803
+        width: 200
+        height: 291
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31114980c4742e5439e7445766796c8e
+      internalID: 1110177946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_13
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3805
+        width: 177
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833485dba7d80bb4fb699936531e55e1
+      internalID: 877610612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_14
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 3798
+        width: 242
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5641d703d76f9f4aac4095c8a69daee
+      internalID: 1638669229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_15
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3792
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3a8c40414dd0c4cb0aaa37f86d6035
+      internalID: 16298166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_16
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 3792
+        width: 144
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac009cecc7b73ab4aa2597a1234f8a68
+      internalID: 657872174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_17
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 3792
+        width: 144
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a625347c961def48bb9619e7e19314e
+      internalID: -920803401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_18
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 3809
+        width: 148
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d7eae18f133db4084bbb97e1a87901
+      internalID: -941405015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_19
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 3799
+        width: 147
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd07d282f7d3646b21b5f159ba0e7b
+      internalID: -1513935856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_20
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 3809
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f883916ad060839419b9795ba6a21cff
+      internalID: 546366801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_21
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 3809
+        width: 149
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3d70a8eff51b840bb8d643992e5bb6
+      internalID: 1379313069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_22
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 3799
+        width: 147
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747cf8178fdcc6c4aab9039c213c03b3
+      internalID: 1018416219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_23
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 3809
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faae2c1f65fc9c40802a11cc4f7dda8
+      internalID: 16317941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3495
+        width: 146
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7c86684468fb48be9f9d89b3d328e
+      internalID: 1023401628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 3486
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dd15495271cc34a88960e372460692
+      internalID: -2061805561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3495
+        width: 145
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef190dc7c7e24648bea80b3660a2f87
+      internalID: -977416830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_27
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3495
+        width: 145
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ed5876f602e3948a72d26db6958988
+      internalID: -1976706739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 3486
+        width: 145
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd320733ef81b8e468815dc7b94c0fd8
+      internalID: 1338421492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_29
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3495
+        width: 145
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a780b1336ea24aa4e9d98f679f83f741
+      internalID: -1517973141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_30
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3485
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6990de014cfede846896a786573a32a4
+      internalID: 1850853489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_31
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3483
+        width: 146
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc266fb774494484c83876c5213cec3f
+      internalID: -765320283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_32
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 3484
+        width: 147
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385081c2e2e17134b9553598c6344f8e
+      internalID: -170973190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_33
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 3484
+        width: 144
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c1fa8d668857d4893549381200c684
+      internalID: 131686551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_34
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 3485
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cd155220c094e47885e5fd50930670
+      internalID: -515049424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_35
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 3485
+        width: 144
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f93003eba9e4446bc640bd69cfc8ca
+      internalID: 773404687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_36
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 3500
+        width: 216
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3cd6095429f2b42ba4b5cb32c3483e
+      internalID: 1310948587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_37
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 3698
+        width: 151
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df9ae4185fb76c40ae094e624d04ef2
+      internalID: -1680459308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_38
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3467
+        width: 171
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21afe1657544bd4084cf48b5c6ab5f8
+      internalID: 1674908532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_39
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 3468
+        width: 221
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f020822efb9f89643a9f641e2ce741ae
+      internalID: 702278113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_40
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 3455
+        width: 190
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c33aa6b7181b1c468edb11784f567b8
+      internalID: -1441481830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_41
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 3455
+        width: 190
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75564bbbfecdd4b4fa882538ce5edcfa
+      internalID: 1708670131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_42
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 3498
+        width: 182
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1d879aebf151b4386bc05c95043c21
+      internalID: -1101712532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_43
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 3500
+        width: 185
+        height: 281
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9480951827dc917449dbf28314ebabc3
+      internalID: 1702059650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_44
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 3491
+        width: 237
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b50b43010ca664eac35b5d4bb6020d
+      internalID: 2121454335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_45
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 3491
+        width: 244
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3de13aa616578644b767ab47990f8d5
+      internalID: 1520268870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_46
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 3118
+        width: 264
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df3b769fcc86be499e6827fef89c754
+      internalID: 1389537546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_47
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3118
+        width: 264
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9b0dc63c05944db0525534dd842b6
+      internalID: 377477563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_48
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 3232
+        width: 256
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5b89b5701935949a117a3ad3290148
+      internalID: -1473006824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_49
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 3117
+        width: 129
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23927559829e58645bf9125b534d798b
+      internalID: 1539062518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_50
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 3117
+        width: 132
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba5fc7d0e7648143a2c802fd6fb3027
+      internalID: 710293655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_51
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 3117
+        width: 191
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac67279a5fc72114fb1ec54bbe193f0d
+      internalID: -185674993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_52
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 3117
+        width: 190
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c1b852ba1b4f140b022ef26496d26a
+      internalID: -1857017895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_53
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3148
+        width: 150
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e53441fd16f44db806cc61776b541
+      internalID: -1781156587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_54
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 3148
+        width: 151
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ab13eaddb17543b5f33cc543b0f38
+      internalID: -227080283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_55
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 3155
+        width: 180
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c311629aa02a48968955870232ae2
+      internalID: 2137019464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_56
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 3153
+        width: 176
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32366572f8a06e4fb2de727dae8749f
+      internalID: -2097258840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_57
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 3143
+        width: 158
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d915c69e8136f489ab7bbbf9c509b7
+      internalID: -1533516012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_58
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 3143
+        width: 163
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315234a2748e99c488157161c752398d
+      internalID: 178340068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_59
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 3143
+        width: 163
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838db6997e8760042928c87b5e83785c
+      internalID: -2003528504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_60
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 3143
+        width: 158
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2488653a13edbf46af34e49ef444033
+      internalID: -1307571677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_61
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 3143
+        width: 157
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d744e82d7da0fec47aa86c824bce39a4
+      internalID: -206333719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_62
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 3143
+        width: 158
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15121c26a93e577439a1ab3d5639c701
+      internalID: 541934541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_63
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 3145
+        width: 145
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be52a3d59bb8d641a5b5d57f59131a1
+      internalID: 1945707748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_64
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 3145
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f972136a5cdfee4eb5c9ab71041f0a6
+      internalID: -1114698987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_65
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2805
+        width: 144
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6aba2ed1099b6c42a9c3c9cf8141524
+      internalID: 432414157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_66
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2814
+        width: 174
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7762c43cf4349cf4eb72fba9ecc03487
+      internalID: 1577775372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 2798
+        width: 171
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a847be9f7dbab4e837c2824da2611d
+      internalID: 1841590651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_68
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2798
+        width: 171
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96baebb3e00ba6444a0de9e972d1f8f1
+      internalID: 1181234776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_69
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2805
+        width: 210
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3137c781133d87246afea7c6fce8710c
+      internalID: -1609193273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_70
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2892
+        width: 255
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2478a3fd23e7731468ab0b04b3e14949
+      internalID: -1138504883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_71
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2809
+        width: 206
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bd84d9f9aa855418490b329c5b214b
+      internalID: -1201557473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_72
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 2807
+        width: 206
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27bba0830bafb94488a5b7c54df5eeb
+      internalID: 276673294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_73
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 2809
+        width: 209
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b093eef3bfcddb459464703f56c76b6
+      internalID: -396796272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_74
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 2821
+        width: 171
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec6bd1b8908f744995a8c733862136c
+      internalID: 44591584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_75
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2824
+        width: 170
+        height: 279
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebadae8ce804004389ec9e7650c6445
+      internalID: 407973039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_76
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 2824
+        width: 170
+        height: 279
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e7f4633b639804da6c66cf68472e4b
+      internalID: -863243794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_77
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 2818
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb1f689f1399c841a73c905ef2020d7
+      internalID: -1465650874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_78
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 2809
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3210243219586e4b96f759a993429da
+      internalID: 399092467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_79
+      rect:
+        serializedVersion: 2
+        x: 2639
+        y: 2818
+        width: 146
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f249eed740b1bce4c89dbe12029305da
+      internalID: -460408085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_80
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 2807
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bf6f0f6c71f0347b3de89a78ada9c7
+      internalID: -1883021442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_81
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 2809
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ff2d1379e5d004585bf0139be7f277
+      internalID: -494122975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_82
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 2809
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05964281aae764a9ba57798962c3ad
+      internalID: -2116242446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_83
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 2809
+        width: 154
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3534a9b6816b06843ab79b61d6f20dc6
+      internalID: -607241299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_84
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 2809
+        width: 155
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58455d40ea3174047918981a98741c3d
+      internalID: -441257683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_85
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 2810
+        width: 155
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb822f5330f3841b63e1b426d05075
+      internalID: -316526237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_86
+      rect:
+        serializedVersion: 2
+        x: 3697
+        y: 2803
+        width: 284
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084073683bb7ae24db84f527449e0afd
+      internalID: -1686576410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2496
+        width: 280
+        height: 299
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b602d20e9d9a8e41899a3a629b96695
+      internalID: -534610351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_88
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2496
+        width: 253
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7dca4782dda6c4cbbb3f087a8c4352
+      internalID: -185374985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_89
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2569
+        width: 256
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84211887e175522489f75b5fb1e095ac
+      internalID: 984771189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_90
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2584
+        width: 254
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159b914f7b2276642a50aa65b2d95336
+      internalID: -816257109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_91
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 2497
+        width: 163
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddf47ccf3cb8b641ac18d15bdf10904
+      internalID: 1547669484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_92
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2497
+        width: 163
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007c371b7d198fd4f85eb81faa9e300e
+      internalID: 1077766718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_93
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 2497
+        width: 163
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9d7ccd57bc3c24398b928d7b703a65
+      internalID: 2137008404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_94
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2485
+        width: 157
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303afd3a731798545a74e9b913a970c9
+      internalID: 36111296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_95
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 2485
+        width: 175
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580776cd3cfdb734997348e1fdb0abe0
+      internalID: -318842248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_96
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2569
+        width: 256
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7cfb0fde8ba60419d3b6be41c023b4
+      internalID: -890970819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_97
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 2496
+        width: 161
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bd0af4f2ee98340a90f360039f4da3
+      internalID: -1659187350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_98
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 2555
+        width: 205
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d650388b09c8342ac7373db16f5060
+      internalID: -475768886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_99
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 2555
+        width: 201
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48aa311156087c41b86bd54983bd1e6
+      internalID: -897666041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_100
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 2555
+        width: 200
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4453e63e0931514c9d13d9f2b6fdea3
+      internalID: 315446642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_101
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 2499
+        width: 198
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc33c030d1a00e040923feb9e4e4d0be
+      internalID: 340779383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_102
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 2503
+        width: 202
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a5d0421b4c874dbfa150551711dcc
+      internalID: 1428275086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_103
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 2501
+        width: 199
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f991516a915b47ba17e43e5bcc062
+      internalID: 204897320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_104
+      rect:
+        serializedVersion: 2
+        x: 3716
+        y: 2503
+        width: 200
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b4c717c48093046b5118bab451cb0a
+      internalID: 319111020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2317
+        width: 297
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ae52aa6504407439ecfa71e9e1d81d
+      internalID: 1925922583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_106
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 2282
+        width: 258
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a33de67bdf59f40827342fee08859e
+      internalID: 1034049350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_107
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2194
+        width: 189
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23c067d8846e04db6aa55ff16111b7
+      internalID: -1946607906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_108
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2171
+        width: 146
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e541fcc031c4047b328c732bef76c8
+      internalID: -906028540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_109
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1871
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7034903531bda4ab599d59979d56a3
+      internalID: 640408577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_110
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1872
+        width: 146
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51946c2e081e67d438fefb0401e0536f
+      internalID: 266959702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_111
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1872
+        width: 147
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542f9e93bd3d8da4da7e1250b11901e6
+      internalID: 86667816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_112
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1883
+        width: 145
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6338a1bc78584954297882074e8fb0bb
+      internalID: 1786029039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_113
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1873
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da23be022015c5944b11643962b78a09
+      internalID: 1743548441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_114
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1883
+        width: 145
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24746fb5478b9489f23fae9f019d5e
+      internalID: 1040811550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_115
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1883
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e98d1cc0ecc74fbfa5bf84019cce7
+      internalID: 118299562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_116
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1873
+        width: 147
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8350e5c23ddd2d14c8c1294e199de84e
+      internalID: -179791946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_117
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1883
+        width: 145
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c9c56ee81a5145b871a56a62ca088
+      internalID: -2145545532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_118
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 1858
+        width: 146
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5a68de5d2a31145b8c153729d83b38
+      internalID: 1782512472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_119
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1858
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4a6a7b39bdb3044a990ca98b3b6108
+      internalID: -1367417132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_120
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 1876
+        width: 200
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7297d663000c7d343a43a2537e57af32
+      internalID: -1742500981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_121
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1879
+        width: 178
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e525ec0e5c962a468208a415344bd58
+      internalID: 2119066958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_122
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1860
+        width: 176
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d673e0dafc4904e9782481fcb292b4
+      internalID: 2122349109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_123
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1872
+        width: 241
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde35929a2453304cab73a17ccbbd142
+      internalID: -1933359819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_124
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 1866
+        width: 145
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f7a377795408e478682ed782e02ac0
+      internalID: 919685133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_125
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 1866
+        width: 145
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bd21d643f71bd408892d15d57d9416
+      internalID: 1551409500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_126
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 1866
+        width: 145
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e835c931efabe664d94c225d393d079c
+      internalID: 1927907362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_127
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 1883
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3e9ba22704c141aa86aa3c2c1e0b7
+      internalID: -1194052367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_128
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1873
+        width: 145
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b1f111e0da9b44b9c01e1559ce9cf
+      internalID: -1473104632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_129
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1883
+        width: 149
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2a0151f6b32f14a9d3cf0fbd0a8734
+      internalID: 1439947886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_130
+      rect:
+        serializedVersion: 2
+        x: 3511
+        y: 1883
+        width: 148
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa2ff1bb7ed69543bb0d9036b3a6d72
+      internalID: -648005591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_131
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 1873
+        width: 148
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab0fcdca04e8034f9154c7ffe4476b5
+      internalID: -750973906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_132
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 1883
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6650fa5e1ec717046acefec5949671a0
+      internalID: 1490909864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_133
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1569
+        width: 145
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e7ea054e359c741824dea75896fe57
+      internalID: 777900320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_134
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1560
+        width: 146
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407c6e8e6be48b1429390aed520a58d5
+      internalID: 837410637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_135
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1569
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb62f7517ee2a4ca1791c58e3df6d9
+      internalID: -496960948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_136
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1569
+        width: 144
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bf3ce3661bc2b4dba08c3a1ce5d05e
+      internalID: -1310299806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_137
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1560
+        width: 147
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3c7048d969a643a5e7cdc90611d27
+      internalID: -1024542797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_138
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1569
+        width: 144
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e45e2ece8dfba142b240f59bfc55300
+      internalID: -473223630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_139
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1558
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cdc98231150cc46b4bcd577cd7f1b4
+      internalID: 488942172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_140
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1556
+        width: 145
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b704093650d7cd44a912ab62f207dd02
+      internalID: -458365465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_141
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1558
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4df9fc7305b794a80a485b181a4bce
+      internalID: -1301647831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_142
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1558
+        width: 144
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822750946536fff43b530933aa2e4e09
+      internalID: 1745388763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_143
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1558
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44d5682eebbbfa4b90f4358049773f3
+      internalID: -1125940549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_144
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1558
+        width: 144
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e66e6b6344caef4c91b66c0a18a377e
+      internalID: -654900859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_145
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 1574
+        width: 218
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce4945408c346243984d0ef039ab2cb
+      internalID: 339262703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_146
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1772
+        width: 151
+        height: 82
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd099135cbdcb4190dc70727ccae99
+      internalID: -729106075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_147
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 1529
+        width: 264
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aa8c07593862d449530c4e531d2601
+      internalID: 119292685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_148
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 1529
+        width: 264
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0b77cbe363d3542b4b2bb53c5f9741
+      internalID: 680322407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_149
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 1542
+        width: 172
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ddc6257c65edf40a6a620846a3ee9b
+      internalID: 684207129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_150
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 1543
+        width: 220
+        height: 300
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47ffb6737fa48549bb84a99ade79d42
+      internalID: -131450773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_151
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 1571
+        width: 184
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179aa06d71e0fca4c80c89ffd86fa045
+      internalID: 483263067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_152
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 1574
+        width: 184
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9eab9625bd70f488f75102e2fb405e
+      internalID: -1397227546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_153
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1564
+        width: 238
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ffe14533646e49ab94a4f87375fc2
+      internalID: -136753792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_154
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1236
+        width: 244
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2553049de4534fb419b8340799d0944a
+      internalID: 502510808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_155
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1200
+        width: 191
+        height: 302
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375a9b4ec3c6bb4d96e61aab65eb18b
+      internalID: 708176139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_156
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1200
+        width: 191
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef85e394ef9a84786c0aeb0eb4bab7
+      internalID: 914255339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_157
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1315
+        width: 255
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375d594b05fdfcc469352a9a3a8e14f7
+      internalID: -218959670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_158
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 1200
+        width: 130
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957ae1e65782dcd428dce394dd67081e
+      internalID: -410928553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_159
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1200
+        width: 132
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30f785c25a9ce43afd53fd60664d0a
+      internalID: -1676430106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_160
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1231
+        width: 150
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3e247c623d9514eae96426817723de
+      internalID: -1077650574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_161
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1231
+        width: 150
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6d1c1691012d7489210a4cb1352427
+      internalID: -514134006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_162
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1239
+        width: 178
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8c914348d22ac4dbac635c15998572
+      internalID: -994297890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_163
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1236
+        width: 176
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a3b30da50d1c446a6de3b617e3f6e9
+      internalID: 1971075401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_164
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1223
+        width: 159
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d9e27333f40964fbb38fbe4e09ee37
+      internalID: -1224030415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_165
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 1223
+        width: 163
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d9bcebd34039147b610cad2c32b751
+      internalID: -2142169457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_166
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 1223
+        width: 162
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5121e1a782acf145a6f574f36b6c775
+      internalID: 455059425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_167
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 1225
+        width: 158
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd13588766724f41b2bce4f6b30017b
+      internalID: -641297917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_168
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 1225
+        width: 157
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e8a58abbb9e6a48ae5d04dfe3086ef
+      internalID: -673867508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_169
+      rect:
+        serializedVersion: 2
+        x: 3054
+        y: 1225
+        width: 157
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b203a0486e2510c4b8b71424e501b29f
+      internalID: -1310533384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_170
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 1228
+        width: 144
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb61a18a1512724e8a58995c3489fe9
+      internalID: 180378071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_171
+      rect:
+        serializedVersion: 2
+        x: 3425
+        y: 1228
+        width: 144
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da39a0bbf7bbbe49b1ac4689486fffd
+      internalID: 692606667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_172
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 1228
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bbc27ca2dc8ec469ae75caebcc6f47
+      internalID: 529208582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_173
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 1236
+        width: 174
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9fad03b70a34f42bf85b560fcd12a1
+      internalID: -31113468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_174
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 881
+        width: 172
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd605362e6436745b5e2bccb8e5ba6e
+      internalID: 2005226527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_175
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 881
+        width: 170
+        height: 295
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c647ea80e40f5d4a88f3087e109692e
+      internalID: 1979254017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_176
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 888
+        width: 210
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6ce0522cf3876438120d8be9a83d4b
+      internalID: 1415360519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_177
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 975
+        width: 254
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca5523005ca8344b0470158fdc0cea
+      internalID: -243219702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_178
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 890
+        width: 144
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3558d191bee4d2541a5f8931a1d1421c
+      internalID: 726824243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_179
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 892
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b100a3cf030d5934f8b6b293702a63c1
+      internalID: -1137790405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_180
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 892
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c668bdd486584469e359bfffff5a84
+      internalID: 410296475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_181
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 892
+        width: 154
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e140f33b3739c746a5135f4022ead49
+      internalID: -1590535701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_182
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 893
+        width: 155
+        height: 293
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39030e732a0be94458b2e4c58c62cd7d
+      internalID: -535754356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_183
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 892
+        width: 206
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3071398ba244674b851cb78391112d0
+      internalID: 412675107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_184
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 890
+        width: 206
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1a0fb90cb4b2e4a97f69e84446f276
+      internalID: -1997989790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_185
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 892
+        width: 209
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af63963dc7582f408e7e354447cc3b7
+      internalID: -166273333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_186
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 904
+        width: 170
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab679086999fd9408138ebb79fba31b
+      internalID: 467301549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_187
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 907
+        width: 169
+        height: 279
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6c838b30287c7489150b1677621d78
+      internalID: -386735923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_188
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 907
+        width: 170
+        height: 279
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa343a2babd30e49acc3c56a7c31cfd
+      internalID: -851951497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_189
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 901
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c7593201dd1734daf65f0c0367abed
+      internalID: -1736667645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_190
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 892
+        width: 145
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257d7680131ca64790827a21a4d925c
+      internalID: -1490995475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_191
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 901
+        width: 147
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9f156a84f4e8d4ca26da436f7ff106
+      internalID: -1259502908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_192
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 892
+        width: 156
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3425d40295b824cb99addb718962f0
+      internalID: 1241918333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_193
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 883
+        width: 283
+        height: 303
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49402d950868e3441a1cdc471c218030
+      internalID: 392515024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_194
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 888
+        width: 282
+        height: 298
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9538bc4cd1a9b45863ccd3ff869779
+      internalID: -692266879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_195
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 579
+        width: 252
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac220e299c49624ba84d1dd532004ed
+      internalID: 785204976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_196
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 652
+        width: 253
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac77729912bee44a22c52452c4d70b
+      internalID: 2066971859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_197
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 667
+        width: 254
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b295cf1f0f164ea64469e124d93be
+      internalID: 1800474295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_198
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 581
+        width: 163
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad124c1b1d76a5841acae98170d515e0
+      internalID: 1853958153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_199
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 581
+        width: 163
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e566221d0246d489fadaf1383d7ff4
+      internalID: -328430251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_200
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 581
+        width: 163
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de4b164a4ad67145b52c25295451deb
+      internalID: 1819203175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_201
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 568
+        width: 158
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b64ceb07513bb74398ee0f1fd3afc30
+      internalID: 1922094635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_202
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 568
+        width: 175
+        height: 297
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6253d39309ea1284a8bd239a508be084
+      internalID: 92846329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_203
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 652
+        width: 253
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e966d0fff04d61244bf862d09f9aab90
+      internalID: -1035262412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_204
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 579
+        width: 162
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5666c54ef8756148a82e527117809b7
+      internalID: -947079775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_205
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 638
+        width: 205
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46001edbe82cba548adce6b3b90af5ee
+      internalID: -1962851415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_206
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 638
+        width: 201
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be13e6b788a567748953be4a8ea1941c
+      internalID: -633618897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_207
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 638
+        width: 199
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da440125e9778b4dbc1e738e54c8799
+      internalID: 1476026882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_208
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 584
+        width: 201
+        height: 294
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff76cdcbfad0eef46a7e20b0a68e0205
+      internalID: 1378768232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_209
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 586
+        width: 200
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9015a609278c364ab1957704e8c5ef8
+      internalID: -1840495195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_210
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 586
+        width: 199
+        height: 292
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a607f8f676f6e419f62c4d4a8468de
+      internalID: 2144835779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_211
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 586
+        width: 202
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b79f5e3d7ec4d498764aeee5f5e338
+      internalID: -940590833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_212
+      rect:
+        serializedVersion: 2
+        x: 3632
+        y: 727
+        width: 297
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0bce8c28635c9418a76ba1b239bf0e
+      internalID: -560000551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_213
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 365
+        width: 260
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6e1929f17e03b4b858c781ee6d9480
+      internalID: 55458711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_214
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 276
+        width: 189
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba331c0d84c1b43439bcbea1fb5431dd
+      internalID: -197764169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_215
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 254
+        width: 145
+        height: 296
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b2c6582922a50498b60a9c68946c2f
+      internalID: 6957896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_216
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 145
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9235dbbc085c54a4ba590673774a3f2d
+      internalID: 1411987333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_217
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dec727645ce5640b4899501111f7ac
+      internalID: 1618422177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_218
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 145
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f6f1d186457694b82ce164ed10ba2e
+      internalID: -1499099183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_219
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 0
+        width: 144
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a425859ed9bd724ab2049a93efdbbfb
+      internalID: 929510928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_220
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 0
+        width: 147
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f268ed7fc09cfbe43b9669f4b661183f
+      internalID: 1634943675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_221
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc00a2849fe0d8d46ad3b35356067165
+      internalID: 1245573758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_222
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 0
+        width: 148
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b476c75b9e35bf74693d5187b1110039
+      internalID: 496736131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_223
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0007cb6faef6347b4a19a848a0f5a9
+      internalID: 1436135197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_224
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81974e147ffb8a641b3d42ceaacaa0dd
+      internalID: 1759653280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_225
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 0
+        width: 145
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efddd3c535843847b67f87bf0839e9d
+      internalID: -1940877418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_226
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 0
+        width: 147
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b03fd3906c0fa4388c4c9a1ccc1e2f
+      internalID: -778362339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_227
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 145
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb11c69caa9e30b45a7025cc382668e0
+      internalID: -1718310297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_228
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c7d343f951a141bb189fdcd99ca9a
+      internalID: 1153230050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_229
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666bf8267fe1ea142803a4a83f0ab478
+      internalID: -1939801048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_230
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c15541aad84bd47b0818cb7b969329
+      internalID: -1627405845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_231
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 0
+        width: 147
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29c7f657fcf934cafb9f6f553caf8c
+      internalID: -1606193763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_232
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4f2a6a3639ee46a127e6559d58036
+      internalID: -171527539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_233
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227c6a725d47a37438f7fe0c8e6009ce
+      internalID: 904575688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_234
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 146
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0719a52cfb6446342b73cc1c6f7e5a9e
+      internalID: 1589382731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_235
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 0
+        width: 147
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ad13be85f33a54b8b8403b4ba74a50
+      internalID: 574133441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_236
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 0
+        width: 145
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478bb6b0e28dbc9409389df4dae3cdc8
+      internalID: 736174599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_237
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 0
+        width: 147
+        height: 239
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f03b439ecb5f246bcc575c857ea7cc
+      internalID: -1944601021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_238
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 0
+        width: 183
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1170ef949efeb6449abb067c02acd04
+      internalID: 507466643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_239
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 0
+        width: 202
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c3c1586d23e2043bcfbe0773c4fcaf
+      internalID: 1082487076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luigi_01png_240
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 0
+        width: 178
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08de557582b7db43bc59ceee0a172ec
+      internalID: 1152452941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a9c0e08401bff0644b000cbe63952600
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Luigi_01png_0: 1490300441
+      Luigi_01png_1: 119838285
+      Luigi_01png_10: 1879011092
+      Luigi_01png_100: 315446642
+      Luigi_01png_101: 340779383
+      Luigi_01png_102: 1428275086
+      Luigi_01png_103: 204897320
+      Luigi_01png_104: 319111020
+      Luigi_01png_105: 1925922583
+      Luigi_01png_106: 1034049350
+      Luigi_01png_107: -1946607906
+      Luigi_01png_108: -906028540
+      Luigi_01png_109: 640408577
+      Luigi_01png_11: 2085270172
+      Luigi_01png_110: 266959702
+      Luigi_01png_111: 86667816
+      Luigi_01png_112: 1786029039
+      Luigi_01png_113: 1743548441
+      Luigi_01png_114: 1040811550
+      Luigi_01png_115: 118299562
+      Luigi_01png_116: -179791946
+      Luigi_01png_117: -2145545532
+      Luigi_01png_118: 1782512472
+      Luigi_01png_119: -1367417132
+      Luigi_01png_12: 1110177946
+      Luigi_01png_120: -1742500981
+      Luigi_01png_121: 2119066958
+      Luigi_01png_122: 2122349109
+      Luigi_01png_123: -1933359819
+      Luigi_01png_124: 919685133
+      Luigi_01png_125: 1551409500
+      Luigi_01png_126: 1927907362
+      Luigi_01png_127: -1194052367
+      Luigi_01png_128: -1473104632
+      Luigi_01png_129: 1439947886
+      Luigi_01png_13: 877610612
+      Luigi_01png_130: -648005591
+      Luigi_01png_131: -750973906
+      Luigi_01png_132: 1490909864
+      Luigi_01png_133: 777900320
+      Luigi_01png_134: 837410637
+      Luigi_01png_135: -496960948
+      Luigi_01png_136: -1310299806
+      Luigi_01png_137: -1024542797
+      Luigi_01png_138: -473223630
+      Luigi_01png_139: 488942172
+      Luigi_01png_14: 1638669229
+      Luigi_01png_140: -458365465
+      Luigi_01png_141: -1301647831
+      Luigi_01png_142: 1745388763
+      Luigi_01png_143: -1125940549
+      Luigi_01png_144: -654900859
+      Luigi_01png_145: 339262703
+      Luigi_01png_146: -729106075
+      Luigi_01png_147: 119292685
+      Luigi_01png_148: 680322407
+      Luigi_01png_149: 684207129
+      Luigi_01png_15: 16298166
+      Luigi_01png_150: -131450773
+      Luigi_01png_151: 483263067
+      Luigi_01png_152: -1397227546
+      Luigi_01png_153: -136753792
+      Luigi_01png_154: 502510808
+      Luigi_01png_155: 708176139
+      Luigi_01png_156: 914255339
+      Luigi_01png_157: -218959670
+      Luigi_01png_158: -410928553
+      Luigi_01png_159: -1676430106
+      Luigi_01png_16: 657872174
+      Luigi_01png_160: -1077650574
+      Luigi_01png_161: -514134006
+      Luigi_01png_162: -994297890
+      Luigi_01png_163: 1971075401
+      Luigi_01png_164: -1224030415
+      Luigi_01png_165: -2142169457
+      Luigi_01png_166: 455059425
+      Luigi_01png_167: -641297917
+      Luigi_01png_168: -673867508
+      Luigi_01png_169: -1310533384
+      Luigi_01png_17: -920803401
+      Luigi_01png_170: 180378071
+      Luigi_01png_171: 692606667
+      Luigi_01png_172: 529208582
+      Luigi_01png_173: -31113468
+      Luigi_01png_174: 2005226527
+      Luigi_01png_175: 1979254017
+      Luigi_01png_176: 1415360519
+      Luigi_01png_177: -243219702
+      Luigi_01png_178: 726824243
+      Luigi_01png_179: -1137790405
+      Luigi_01png_18: -941405015
+      Luigi_01png_180: 410296475
+      Luigi_01png_181: -1590535701
+      Luigi_01png_182: -535754356
+      Luigi_01png_183: 412675107
+      Luigi_01png_184: -1997989790
+      Luigi_01png_185: -166273333
+      Luigi_01png_186: 467301549
+      Luigi_01png_187: -386735923
+      Luigi_01png_188: -851951497
+      Luigi_01png_189: -1736667645
+      Luigi_01png_19: -1513935856
+      Luigi_01png_190: -1490995475
+      Luigi_01png_191: -1259502908
+      Luigi_01png_192: 1241918333
+      Luigi_01png_193: 392515024
+      Luigi_01png_194: -692266879
+      Luigi_01png_195: 785204976
+      Luigi_01png_196: 2066971859
+      Luigi_01png_197: 1800474295
+      Luigi_01png_198: 1853958153
+      Luigi_01png_199: -328430251
+      Luigi_01png_2: 601477329
+      Luigi_01png_20: 546366801
+      Luigi_01png_200: 1819203175
+      Luigi_01png_201: 1922094635
+      Luigi_01png_202: 92846329
+      Luigi_01png_203: -1035262412
+      Luigi_01png_204: -947079775
+      Luigi_01png_205: -1962851415
+      Luigi_01png_206: -633618897
+      Luigi_01png_207: 1476026882
+      Luigi_01png_208: 1378768232
+      Luigi_01png_209: -1840495195
+      Luigi_01png_21: 1379313069
+      Luigi_01png_210: 2144835779
+      Luigi_01png_211: -940590833
+      Luigi_01png_212: -560000551
+      Luigi_01png_213: 55458711
+      Luigi_01png_214: -197764169
+      Luigi_01png_215: 6957896
+      Luigi_01png_216: 1411987333
+      Luigi_01png_217: 1618422177
+      Luigi_01png_218: -1499099183
+      Luigi_01png_219: 929510928
+      Luigi_01png_22: 1018416219
+      Luigi_01png_220: 1634943675
+      Luigi_01png_221: 1245573758
+      Luigi_01png_222: 496736131
+      Luigi_01png_223: 1436135197
+      Luigi_01png_224: 1759653280
+      Luigi_01png_225: -1940877418
+      Luigi_01png_226: -778362339
+      Luigi_01png_227: -1718310297
+      Luigi_01png_228: 1153230050
+      Luigi_01png_229: -1939801048
+      Luigi_01png_23: 16317941
+      Luigi_01png_230: -1627405845
+      Luigi_01png_231: -1606193763
+      Luigi_01png_232: -171527539
+      Luigi_01png_233: 904575688
+      Luigi_01png_234: 1589382731
+      Luigi_01png_235: 574133441
+      Luigi_01png_236: 736174599
+      Luigi_01png_237: -1944601021
+      Luigi_01png_238: 507466643
+      Luigi_01png_239: 1082487076
+      Luigi_01png_24: 1023401628
+      Luigi_01png_240: 1152452941
+      Luigi_01png_25: -2061805561
+      Luigi_01png_26: -977416830
+      Luigi_01png_27: -1976706739
+      Luigi_01png_28: 1338421492
+      Luigi_01png_29: -1517973141
+      Luigi_01png_3: -1703288291
+      Luigi_01png_30: 1850853489
+      Luigi_01png_31: -765320283
+      Luigi_01png_32: -170973190
+      Luigi_01png_33: 131686551
+      Luigi_01png_34: -515049424
+      Luigi_01png_35: 773404687
+      Luigi_01png_36: 1310948587
+      Luigi_01png_37: -1680459308
+      Luigi_01png_38: 1674908532
+      Luigi_01png_39: 702278113
+      Luigi_01png_4: 2147215168
+      Luigi_01png_40: -1441481830
+      Luigi_01png_41: 1708670131
+      Luigi_01png_42: -1101712532
+      Luigi_01png_43: 1702059650
+      Luigi_01png_44: 2121454335
+      Luigi_01png_45: 1520268870
+      Luigi_01png_46: 1389537546
+      Luigi_01png_47: 377477563
+      Luigi_01png_48: -1473006824
+      Luigi_01png_49: 1539062518
+      Luigi_01png_5: 549403647
+      Luigi_01png_50: 710293655
+      Luigi_01png_51: -185674993
+      Luigi_01png_52: -1857017895
+      Luigi_01png_53: -1781156587
+      Luigi_01png_54: -227080283
+      Luigi_01png_55: 2137019464
+      Luigi_01png_56: -2097258840
+      Luigi_01png_57: -1533516012
+      Luigi_01png_58: 178340068
+      Luigi_01png_59: -2003528504
+      Luigi_01png_6: -659143955
+      Luigi_01png_60: -1307571677
+      Luigi_01png_61: -206333719
+      Luigi_01png_62: 541934541
+      Luigi_01png_63: 1945707748
+      Luigi_01png_64: -1114698987
+      Luigi_01png_65: 432414157
+      Luigi_01png_66: 1577775372
+      Luigi_01png_67: 1841590651
+      Luigi_01png_68: 1181234776
+      Luigi_01png_69: -1609193273
+      Luigi_01png_7: 308711297
+      Luigi_01png_70: -1138504883
+      Luigi_01png_71: -1201557473
+      Luigi_01png_72: 276673294
+      Luigi_01png_73: -396796272
+      Luigi_01png_74: 44591584
+      Luigi_01png_75: 407973039
+      Luigi_01png_76: -863243794
+      Luigi_01png_77: -1465650874
+      Luigi_01png_78: 399092467
+      Luigi_01png_79: -460408085
+      Luigi_01png_8: 241235470
+      Luigi_01png_80: -1883021442
+      Luigi_01png_81: -494122975
+      Luigi_01png_82: -2116242446
+      Luigi_01png_83: -607241299
+      Luigi_01png_84: -441257683
+      Luigi_01png_85: -316526237
+      Luigi_01png_86: -1686576410
+      Luigi_01png_87: -534610351
+      Luigi_01png_88: -185374985
+      Luigi_01png_89: 984771189
+      Luigi_01png_9: -953200644
+      Luigi_01png_90: -816257109
+      Luigi_01png_91: 1547669484
+      Luigi_01png_92: 1077766718
+      Luigi_01png_93: 2137008404
+      Luigi_01png_94: 36111296
+      Luigi_01png_95: -318842248
+      Luigi_01png_96: -890970819
+      Luigi_01png_97: -1659187350
+      Luigi_01png_98: -475768886
+      Luigi_01png_99: -897666041
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
