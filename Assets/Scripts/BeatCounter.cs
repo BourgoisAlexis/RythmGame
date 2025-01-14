@@ -5,47 +5,61 @@ using System;
 public class BeatCounter {
     #region Variables
     public string id;
-    public int index;
-    public string soundKey;
-    public int beatDiv;
-    public int delay;
-    public List<bool> fulls;
+    public InputDirection Input;
+    public int BeatDiv;
+    public int Delay;
+    public List<bool> Fulls;
 
-    public int currentCount;
+    public int CurrentCount;
+    public int InputCount;
     #endregion
 
 
-    public BeatCounter(int index, string soundKey, int beatDiv, int delay, List<bool> fulls) {
-        this.index = index;
-        this.soundKey = soundKey;
-        this.beatDiv = beatDiv;
-        this.delay = delay;
-        this.fulls = fulls;
+    public BeatCounter(InputDirection input, int beatDiv, int delay, List<bool> fulls) {
+        Input = input;
+        BeatDiv = beatDiv;
+        Delay = delay;
+        Fulls = fulls;
 
-        id = soundKey;
-        currentCount = 0;
+        id = input.AudioClip.name;
+        CurrentCount = 0;
     }
 
 
     public bool IsAFullBeat(int value) {
         //Apply delay
-        value -= delay;
+        value -= Delay;
 
-        if (value == currentCount)
+        if (value == CurrentCount)
             return false;
 
-        currentCount = value;
+        CurrentCount = value;
 
-        if (currentCount < 0 || currentCount >= fulls.Count)
+        if (CurrentCount < 0 || CurrentCount >= Fulls.Count)
             return false;
 
-        return fulls[currentCount];
+        return Fulls[CurrentCount];
+    }
+
+    public bool IsAFullInputBeat(int value) {
+        //Apply delay
+        value -= Delay;
+
+        if (value == InputCount)
+            return false;
+
+        InputCount = value;
+
+        if (InputCount < 0 || InputCount >= Fulls.Count)
+            return false;
+
+        return Fulls[InputCount];
     }
 
     public void RepeatPattern(int n) {
-        List<bool> list = new List<bool>(fulls);
+        List<bool> list = new List<bool>(Fulls);
 
         for (int i = 0; i < n; i++)
-            fulls.AddRange(list);
+            Fulls.AddRange(list);
     }
 }

@@ -12,11 +12,11 @@ public class Visual : MonoBehaviour, IBeatObserver {
 
 
     private void Start() {
-        FindObjectOfType<BeatManager>().AddObserver(this);
+        FindFirstObjectByType<BeatManager>().AddObserver(this, false);
     }
 
-    public void OnBeat(int index, float beatDuration) {
-        UpdateSprite(index);
+    public void OnBeat(InputDirection input, float beatDuration, int inputDelay) {
+        UpdateSprite(input.Index);
         Anim(beatDuration);
     }
 

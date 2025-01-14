@@ -7,7 +7,8 @@ public class BeatManager : MonoBehaviour {
     private const char EMPTY = '□';
 
     [Header("Parameters")]
-    [SerializeField] private List<AudioClip> _instruments = new List<AudioClip>();
+    [SerializeField] private int _inputDelay;
+    [SerializeField] private List<InputDirection> _inputs = new List<InputDirection>();
 
     [Header("Refs")]
     [SerializeField] private SFXManager _sfxManager;
@@ -17,13 +18,17 @@ public class BeatManager : MonoBehaviour {
     private int _beatDiv = 4;
     private float _secondsPerBeat = 0f;
     private List<BeatCounter> _counters = new List<BeatCounter>();
-    private List<IBeatObserver> _beatObservers = new List<IBeatObserver>();
+    private List<IBeatObserver> _onBeatObservers = new List<IBeatObserver>();
+    private List<IBeatObserver> _inputBeatObservers = new List<IBeatObserver>();
+
+
+    private int GetDelay() => _inputDelay * _beatDiv;
     #endregion
 
 
     private void Awake() {
         _counters.Clear();
-        _beatObservers.Clear();
+        _onBeatObservers.Clear();
 
         _sfxManager.Init();
 
@@ -37,13 +42,22 @@ public class BeatManager : MonoBehaviour {
 
 
     private void BeatUpdate(BeatCounter counter) {
-        int value = _sfxManager.CalculateCurrentBeat(_secondsPerBeat, _offset, counter.beatDiv);
+        int value = _sfxManager.CalculateCurrentBeat(_secondsPerBeat, _offset, counter.BeatDiv);
 
         if (counter.IsAFullBeat(value)) {
-            _sfxManager.PlayAudio(counter.soundKey, 1, false);
+            InputDirection input = counter.Input;
 
-            foreach (IBeatObserver observer in _beatObservers)
-                observer.OnBeat(counter.index, _secondsPerBeat / (float)_beatDiv);
+            _sfxManager.PlayAudio(input.AudioClip.name, 1, false);
+
+            foreach (IBeatObserver observer in _onBeatObservers)
+                observer.OnBeat(input, _secondsPerBeat / (float)_beatDiv, 0);
+        }
+
+        if (counter.IsAFullInputBeat(value + GetDelay())) {
+            InputDirection input = counter.Input;
+
+            foreach (IBeatObserver observer in _inputBeatObservers)
+                observer.OnBeat(input, _secondsPerBeat / (float)_beatDiv, GetDelay());
         }
     }
 
@@ -69,29 +83,36 @@ public class BeatManager : MonoBehaviour {
             foreach (char c in line)
                 fulls.Add(c == FULL);
 
-            _counters.Add(new BeatCounter(i - infoLines, _instruments[i - infoLines].name, _beatDiv, delay, fulls));
+            _counters.Add(new BeatCounter(_inputs[i - infoLines], _beatDiv, delay, fulls));
         }
 
         _sfxManager.PlayMusic(trackKey, volume / 100);
     }
 
-    public void AddObserver(IBeatObserver obs) {
+    public void AddObserver(IBeatObserver obs, bool input) {
         if (obs == null)
             return;
 
-        if (_beatObservers.Contains(obs))
-            return;
-
-        _beatObservers.Add(obs);
+        if (input) {
+            if (_inputBeatObservers.Contains(obs))
+                return;
+            _inputBeatObservers.Add(obs);
+        }
+        else {
+            if (_onBeatObservers.Contains(obs))
+                return;
+            _onBeatObservers.Add(obs);
+        }
     }
 
     public void RemoveObserver(IBeatObserver obs) {
         if (obs == null)
             return;
 
-        if (!_beatObservers.Contains(obs))
-            return;
+        if (_onBeatObservers.Contains(obs))
+            _onBeatObservers.Remove(obs);
 
-        _beatObservers.Remove(obs);
+        if (_inputBeatObservers.Contains(obs))
+            _inputBeatObservers.Remove(obs);
     }
 }
