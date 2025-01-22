@@ -1,3 +1,3 @@
 public interface IBeatObserver {
-    public void OnBeat(InputDirection input, float beatDuration, int inputDelay);
+    public void OnBeat(DirectionInput input, float beatDuration, int inputDelay);
 }

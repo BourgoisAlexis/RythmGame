@@ -5,7 +5,7 @@ using System;
 public class BeatCounter {
     #region Variables
     public string id;
-    public InputDirection Input;
+    public DirectionInput Input;
     public int BeatDiv;
     public int Delay;
     public List<bool> Fulls;
@@ -15,7 +15,7 @@ public class BeatCounter {
     #endregion
 
 
-    public BeatCounter(InputDirection input, int beatDiv, int delay, List<bool> fulls) {
+    public BeatCounter(DirectionInput input, int beatDiv, int delay, List<bool> fulls) {
         Input = input;
         BeatDiv = beatDiv;
         Delay = delay;

@@ -8,9 +8,12 @@ public class BeatManager : MonoBehaviour {
 
     [Header("Parameters")]
     [SerializeField] private int _inputDelay;
-    [SerializeField] private List<InputDirection> _inputs = new List<InputDirection>();
+    [SerializeField] private List<DirectionInput> _inputs = new List<DirectionInput>();
+    [SerializeField] private float[] _registeredInputs;
+    [SerializeField] private float[] _scriptedInputs;
 
     [Header("Refs")]
+    [SerializeField] private Background _background;
     [SerializeField] private SFXManager _sfxManager;
     [SerializeField] private TextAsset _beatFile;
 
@@ -27,6 +30,8 @@ public class BeatManager : MonoBehaviour {
 
 
     private void Awake() {
+        _registeredInputs = new float[4];
+        _scriptedInputs = new float[4];
         _counters.Clear();
         _onBeatObservers.Clear();
 
@@ -36,16 +41,51 @@ public class BeatManager : MonoBehaviour {
     }
 
     private void Update() {
+        float time = Time.timeSinceLevelLoad;
+
         foreach (BeatCounter c in _counters)
-            BeatUpdate(c);
+            BeatUpdate(time, c);
+
+        RegisterInputs(time);
     }
 
 
-    private void BeatUpdate(BeatCounter counter) {
+    private void RegisterInputs(float time) {
+        bool pressed = false;
+
+        if (Input.GetKeyDown(KeyCode.UpArrow)) {
+            _registeredInputs[0] = time;
+            pressed = true;
+            Debug.Log(_scriptedInputs[0] - _registeredInputs[0]);
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            _registeredInputs[1] = time;
+            pressed = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) {
+            _registeredInputs[2] = time;
+            pressed = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightArrow)) {
+            _registeredInputs[3] = time;
+            pressed = true;
+        }
+
+        if (!pressed)
+            return;
+
+        _background.OnBeat(_inputs[0], _secondsPerBeat / (float)_beatDiv, GetDelay());
+    }
+
+    private void BeatUpdate(float time, BeatCounter counter) {
         int value = _sfxManager.CalculateCurrentBeat(_secondsPerBeat, _offset, counter.BeatDiv);
 
         if (counter.IsAFullBeat(value)) {
-            InputDirection input = counter.Input;
+            DirectionInput input = counter.Input;
+            _scriptedInputs[counter.Input.Index] = time;
 
             _sfxManager.PlayAudio(input.AudioClip.name, 1, false);
 
@@ -54,7 +94,7 @@ public class BeatManager : MonoBehaviour {
         }
 
         if (counter.IsAFullInputBeat(value + GetDelay())) {
-            InputDirection input = counter.Input;
+            DirectionInput input = counter.Input;
 
             foreach (IBeatObserver observer in _inputBeatObservers)
                 observer.OnBeat(input, _secondsPerBeat / (float)_beatDiv, GetDelay());

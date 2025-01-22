@@ -2,9 +2,8 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public struct InputDirection {
+public struct DirectionInput {
     public int Index;
-    public Input Input;
     public AudioClip AudioClip;
     public float Rotation;
 }

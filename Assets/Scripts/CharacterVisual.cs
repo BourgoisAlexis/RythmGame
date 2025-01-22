@@ -1,10 +1,11 @@
 using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Visual : MonoBehaviour, IBeatObserver {
+public class CharacterVisual : MonoBehaviour, IBeatObserver {
     #region Variables
-    [SerializeField] private SpriteRenderer _renderer;
+    [SerializeField] private Image _image;
     [SerializeField] private List<Sprite> _sprites = new List<Sprite>();
 
     private int _currentIndex;
@@ -15,7 +16,7 @@ public class Visual : MonoBehaviour, IBeatObserver {
         FindFirstObjectByType<BeatManager>().AddObserver(this, false);
     }
 
-    public void OnBeat(InputDirection input, float beatDuration, int inputDelay) {
+    public void OnBeat(DirectionInput input, float beatDuration, int inputDelay) {
         UpdateSprite(input.Index);
         Anim(beatDuration);
     }
@@ -25,7 +26,7 @@ public class Visual : MonoBehaviour, IBeatObserver {
         if (index == _currentIndex)
             return;
 
-        _renderer.sprite = _sprites[index];
+        _image.sprite = _sprites[index];
         _currentIndex = index;
     }
 
